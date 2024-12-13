@@ -1,0 +1,3 @@
+Command Line: /home/zjh/synopsys/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas -f filelist.f -sverilog -ssf tb.fsdb -nologo
+uname(Linux qifu 5.15.0-126-generic #136~20.04.1-Ubuntu SMP Thu Nov 14 16:38:05 UTC 2024 x86_64)
+au time 967.469716 11.811920 8.697844 delta 404819968 404819968 total 780423168 780423168
