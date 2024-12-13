@@ -1,9 +1,0 @@
-debImport "-f" "filelist.f" "-sverilog"
-debLoadSimResult /home/zjh/ic_prj/asic/fft/sim/tb.fsdb
-wvCreateWindow
-srcDeselectAll -win $_nTrace1
-srcSelect -signal "power_dout" -line 12 -pos 1 -win $_nTrace1
-srcAddSelectedToWave -clipboard -win $_nTrace1
-wvDrop -win $_nWave2
-wvSetCursor -win $_nWave2 2506.792949 -snap {("G2" 0)}
-wvZoomAll -win $_nWave2
